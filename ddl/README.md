@@ -43,3 +43,5 @@ CREATE TABLE multa (
     valor NUMERIC(5,2) CHECK (valor >= 0),
     data_pagamento DATE
 );
+
+ALTER TABLE aluno ADD COLUMN telefone VARCHAR(15);
