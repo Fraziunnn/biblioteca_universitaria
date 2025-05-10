@@ -1,0 +1,24 @@
+INSERT INTO curso (nome) VALUES 
+('Ciência da Computação'), 
+('Engenharia Elétrica'), 
+('Administração');
+
+INSERT INTO aluno (nome, matricula, email, id_curso) VALUES 
+('João Silva', '12345', 'joao@gmail.com', 1), 
+('Maria Souza', '67890', 'maria@gmail.com', 2),
+('Pedro Almeida', '54321', 'pedro@gmail.com', 3);
+
+INSERT INTO categoria_livro (nome) VALUES 
+('Programação'), 
+('Eletrônica'), 
+('Gestão');
+
+INSERT INTO livro (titulo, autor, ano_publicacao, id_categoria) VALUES 
+('Introdução à Programação', 'Carlos Silva', 2020, 1), 
+('Eletrônica Básica', 'Ana Costa', 2019, 2),
+('Gestão de Negócios', 'José Lima', 2021, 3);
+
+INSERT INTO emprestimo (id_aluno, id_livro, data_prevista_devolucao) VALUES 
+(1, 1, '2025-06-01'), 
+(2, 2, '2025-07-01'),
+(3, 3, '2025-08-01');
