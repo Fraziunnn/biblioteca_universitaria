@@ -45,3 +45,6 @@ CREATE TABLE multa (
 );
 
 ALTER TABLE aluno ADD COLUMN telefone VARCHAR(15);
+
+ALTER TABLE aluno ADD COLUMN status VARCHAR(10) DEFAULT 'ativo' CHECK (status IN ('ativo', 'inativo'));
+
