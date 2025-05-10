@@ -9,10 +9,4 @@ Este projeto simula um sistema de gerenciamento de uma biblioteca universitária
 - **updates_deletes.sql**: Contém os comandos de atualização e exclusão de dados.
 - **selects.sql**: Contém as consultas SQL para recuperar informações do banco de dados.
 
-## Arquivos SQL
-
-- [DDL: Criação das Tabelas (ddl.sql)](./ddl.sql)
-- [DML: Inserção de Dados (dml.sql)](./dml.sql)
-- [Update/Delete de Dados (updates_deletes.sql)](./updates_deletes.sql)
-- [Consultas SQL (selects.sql)](./selects.sql)
 
