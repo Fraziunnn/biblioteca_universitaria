@@ -18,4 +18,4 @@ Este projeto simula um sistema de controle de uma biblioteca universitária. Ele
 
 ## Vídeo Explicativo
 O vídeo explicando o projeto e as consultas realizadas pode ser acessado no link abaixo:
-[[Link para o vídeo](https://link-do-video)](https://youtu.be/TD0w7PU8eKI)
+https://youtu.be/i4xDCBR0V50
