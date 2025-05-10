@@ -1,12 +1,21 @@
-# Sistema de Biblioteca Universitária
+# Projeto de Banco de Dados - Biblioteca Universitária
 
-Este projeto simula um sistema de gerenciamento de uma biblioteca universitária. O sistema permite o gerenciamento de cursos, alunos, livros, empréstimos, devoluções e multas. Foi desenvolvido utilizando PostgreSQL como banco de dados relacional.
+Este projeto simula um sistema de controle de uma biblioteca universitária. Ele abrange o controle de alunos, livros, empréstimos, devoluções e multas. 
 
-## Arquivos SQL
+## Estrutura do Banco de Dados
+- **Curso**: Informações sobre os cursos oferecidos.
+- **Aluno**: Informações sobre os alunos matriculados.
+- **Categoria de Livro**: Categorias dos livros disponíveis.
+- **Livro**: Informações sobre os livros na biblioteca.
+- **Empréstimo**: Controle de empréstimos feitos pelos alunos.
+- **Devolução**: Registro das devoluções.
+- **Multa**: Registra as multas por atraso.
 
-- **ddl.sql**: Contém as instruções para criar as tabelas.
-- **dml.sql**: Contém os comandos de inserção de dados nas tabelas.
-- **updates_deletes.sql**: Contém os comandos de atualização e exclusão de dados.
-- **selects.sql**: Contém as consultas SQL para recuperar informações do banco de dados.
+## Como executar
+1. Clone este repositório.
+2. Importe os scripts de DDL e DML para o seu banco de dados PostgreSQL.
+3. Execute os scripts para criar as tabelas, inserir dados, fazer atualizações e executar consultas.
 
-
+## Vídeo Explicativo
+O vídeo explicando o projeto e as consultas realizadas pode ser acessado no link abaixo:
+[Link para o vídeo](https://link-do-video)
