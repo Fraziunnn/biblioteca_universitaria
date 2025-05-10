@@ -24,3 +24,7 @@ Este projeto simula um sistema de gerenciamento de uma biblioteca universitária
 2. Crie uma branch para suas alterações.
 3. Envie um Pull Request com suas modificações.
 
+[ddl.sql](./ddl.sql)
+[dml.sql](./dml.sql)
+[updates_deletes.sql](./updates_deletes.sql)
+[selects.sql](./selects.sql)
